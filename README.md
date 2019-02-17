@@ -1,3 +1,22 @@
+# Casstle
+
+## How it work ?
+
+This website list all the "Hotel restaurants" from Relais Chateaux which have a Michelin stared restaurant.
+We can search by week-end an available Relais-Chateaux hotel , with the total price per person .
+
+To do this first we have listed the list of Michelin starred restaurants and then have scrapped the Relais-Chateaux hotels.
+You will find two folders :
+  -Scraping : inside there is the node.js script to scrape the Hotels.
+  -Website : inside there is the website.
+  
+Steps: 
+  - run the michelin scrapper.
+  - run the relais chateau scrapper.
+  - place the generated json into the src folder of the website.
+  - run the server of the website (with react.js)
+
+
 # Castle
 
 > Sleep well with Relais & Châteaux
